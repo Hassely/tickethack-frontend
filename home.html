@@ -8,15 +8,37 @@
     <title>TicketHack</title>
   </head>
   <body>
-    <div id="container">
-    </div id="logo-header">
-  <img src="images/logoTicketHack.png" alt="logo du site TicketHack">
-  </div>
-      <div id="header">bonjour</div>
-      <div id="logo-container">bonjour</div>
-      <div id="content-left">bonjour</div>
-      <div id="content right">>bonjour</div>
-    </div>
+    <header>
+      <nav>
+        <img src="images/logoTicketHack.png" alt="logo du site TicketHack" />
+        <a href="./view/cart.html">Cart</a>
+        <a href="./view/booking.html">Bookings</a>
+      </nav>
+    </header>
+    <main>
+      <div id="textContainer">
+        <h1>"Explore the World effortlessly by train</h1>
+        <p>
+          Compare, book and enjoy cheap prices for train tickets: your journey
+          start on TicketHack !
+        </p>
+      </div>
+
+      <div id="cardContainer">
+        <div class="card">
+          <input id="departure" type="text" />
+          <input id="arrival" type="text" />
+          <input id="date" type="date" />
+          <button id="search"></button>
+        </div>
+
+        <div class="card">
+          <img src="images/train.png" alt="image d'un train" />
+          <p>It's time to book your future trip !</p>
+        </div>
+      </div>
+    </main>
+
     <script src="./javascript/home.js"></script>
   </body>
 </html>
