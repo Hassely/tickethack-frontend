@@ -1,4 +1,53 @@
+/* General CSS */
 body {
-margin: 0;
+    margin: 0;
 }
 
+/* Navbar */
+header {
+    height: 8vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo {
+    width: 50%;
+    margin-left: 1vw;
+}
+
+#imgLogo {
+    width: 30%;
+}
+
+
+#links {
+    margin-right: 2vw;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+a {
+    margin-left: 20px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Main */
+main {
+    height: 92vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+}
