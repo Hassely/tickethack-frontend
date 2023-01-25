@@ -4,15 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Revalia"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="./css/home.css" />
     <title>TicketHack</title>
   </head>
   <body>
     <header>
       <nav>
-        <img src="images/logoTicketHack.png" alt="logo du site TicketHack" />
-        <a href="./view/cart.html">Cart</a>
-        <a href="./view/booking.html">Bookings</a>
+        <div id="logo">
+          <img
+            id="imgLogo"
+            src="images/logoticketHack.png"
+            alt="logo du site TicketHack"
+          />
+          <a id="title" href="home.html">Ticket Hack</a>
+        </div>
+        <div id="links">
+          <a href="./view/cart.html">Cart</a>
+          <a href="./view/booking.html">Bookings</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -25,14 +39,14 @@
       </div>
 
       <div id="cardContainer">
-        <div class="card">
-          <input id="departure" type="text" />
-          <input id="arrival" type="text" />
+        <div class="card1">
+          <input id="departure" type="text" placeholder="departure" />
+          <input id="arrival" type="text" placeholder="arrival" />
           <input id="date" type="date" />
-          <button id="search"></button>
+          <button id="search">Search</button>
         </div>
 
-        <div class="card">
+        <div class="card2">
           <img src="images/train.png" alt="image d'un train" />
           <p>It's time to book your future trip !</p>
         </div>
