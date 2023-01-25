@@ -1,0 +1,63 @@
+/* General CSS */
+body {
+    margin: 0;
+}
+
+/* Navbar */
+header {
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo {
+    width: 50%;
+    margin-left: 1vw;
+}
+
+#imgLogo {
+    width: 30%;
+}
+
+
+#links {
+    margin-right: 2vw;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+a {
+    margin-left: 20px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Main */
+main {
+    height: 90vh;
+    text-align: center;
+    background-color: rgb(239, 242, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    width: 50%;
+    padding-top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#container > p {
+    padding-bottom: 15px;
+}
